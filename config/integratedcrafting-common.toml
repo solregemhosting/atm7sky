@@ -26,3 +26,4 @@
 		analytics = false
 		#If the version checker should be enabled.
 		versionChecker = false
+

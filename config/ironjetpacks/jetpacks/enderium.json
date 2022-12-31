@@ -20,6 +20,6 @@
   "sprintFuelMulti": 4.0,
   "creative": false,
   "toughness": 0.0,
-  "knockbackResistance": 0.0
-
+  "knockbackResistance": 0.0,
+  "speedHoverAscend": 0.45
 }

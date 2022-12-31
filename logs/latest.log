@@ -1,0 +1,564 @@
+[31Dec2022 06:34:57.618] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 40.1.84, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914, nogui]
+[31Dec2022 06:34:57.625] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 17.0.5 by Private Build
+[31Dec2022 06:34:58.068] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/clarinetcombo/atm7sky/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2314!/ Service=ModLauncher Env=SERVER
+[31Dec2022 06:35:01.311] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/clarinetcombo/atm7sky/libraries/net/minecraftforge/fmlcore/1.18.2-40.1.84/fmlcore-1.18.2-40.1.84.jar is missing mods.toml file
+[31Dec2022 06:35:01.313] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/clarinetcombo/atm7sky/libraries/net/minecraftforge/javafmllanguage/1.18.2-40.1.84/javafmllanguage-1.18.2-40.1.84.jar is missing mods.toml file
+[31Dec2022 06:35:01.315] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/clarinetcombo/atm7sky/libraries/net/minecraftforge/lowcodelanguage/1.18.2-40.1.84/lowcodelanguage-1.18.2-40.1.84.jar is missing mods.toml file
+[31Dec2022 06:35:01.317] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/clarinetcombo/atm7sky/libraries/net/minecraftforge/mclanguage/1.18.2-40.1.84/mclanguage-1.18.2-40.1.84.jar is missing mods.toml file
+[31Dec2022 06:35:01.753] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
+[31Dec2022 06:35:30.220] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[31Dec2022 06:35:30.668] [main/ERROR] [mixin/]: Mixin config tklib.mixin.json does not specify "minVersion" property
+[31Dec2022 06:35:31.542] [main/ERROR] [mixin/]: Mixin config myrtrees-common.mixins.json does not specify "minVersion" property
+[31Dec2022 06:35:31.687] [main/ERROR] [mixin/]: Mixin config supercircuitmaker.mixin.json does not specify "minVersion" property
+[31Dec2022 06:35:32.186] [main/ERROR] [mixin/]: Mixin config chipped-common.mixins.json does not specify "minVersion" property
+[31Dec2022 06:35:32.243] [main/ERROR] [mixin/]: Mixin config chipped.mixins.json does not specify "minVersion" property
+[31Dec2022 06:35:32.955] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.thevortex.allthetweaks.mixin.MixinConnector]
+[31Dec2022 06:35:32.963] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.leobeliik.extremesoundmuffler.MixinConnector]
+[31Dec2022 06:35:33.036] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[31Dec2022 06:35:33.219] [main/WARN] [mixin/]: Reference map 'createdeco.refmap.json' for createdeco.mixins.json could not be read. If this is a development environment you can ignore this message
+[31Dec2022 06:35:34.243] [main/WARN] [mixin/]: Reference map 'compactmachines.refmap.json' for compactmachines.mixin.json could not be read. If this is a development environment you can ignore this message
+[31Dec2022 06:35:34.763] [main/WARN] [mixin/]: Reference map 'myrtrees-common-refmap.json' for myrtrees-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[31Dec2022 06:35:35.070] [main/WARN] [mixin/]: Reference map 'supercircuitmaker.refmap.json' for supercircuitmaker.mixin.json could not be read. If this is a development environment you can ignore this message
+[31Dec2022 06:35:35.268] [main/WARN] [mixin/]: Reference map 'insanelib.refmap.json' for insanelib.mixins.json could not be read. If this is a development environment you can ignore this message
+[31Dec2022 06:35:35.505] [main/WARN] [mixin/]: Reference map 'chipped-forge-refmap.json' for chipped.mixins.json could not be read. If this is a development environment you can ignore this message
+[31Dec2022 06:35:35.883] [main/WARN] [mixin/]: Reference map 'bloodmagic.refmap.json' for bloodmagic.mixins.json could not be read. If this is a development environment you can ignore this message
+[31Dec2022 06:35:38.442] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/world/inventory/AnvilMenu
+[31Dec2022 06:35:39.368] [main/WARN] [mixin/]: Error loading class: de/maxhenkel/gravestone/events/DeathEvents (java.lang.ClassNotFoundException: de.maxhenkel.gravestone.events.DeathEvents)
+[31Dec2022 06:35:39.369] [main/WARN] [mixin/]: Error loading class: de/maxhenkel/corpse/events/DeathEvents (java.lang.ClassNotFoundException: de.maxhenkel.corpse.events.DeathEvents)
+[31Dec2022 06:35:39.383] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Patching FishingHook#catchingFish
+[31Dec2022 06:35:40.347] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/inventory/AbstractContainerScreen for invalid dist DEDICATED_SERVER
+[31Dec2022 06:35:40.348] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/inventory/AbstractContainerScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/inventory/AbstractContainerScreen for invalid dist DEDICATED_SERVER)
+[31Dec2022 06:35:40.348] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.inventory.AbstractContainerScreen was not found findme-common.mixins.json:MixinSlotRenderer
+[31Dec2022 06:35:40.360] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/particle/ParticleEngine for invalid dist DEDICATED_SERVER
+[31Dec2022 06:35:40.360] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/particle/ParticleEngine (java.lang.RuntimeException: Attempted to load class net/minecraft/client/particle/ParticleEngine for invalid dist DEDICATED_SERVER)
+[31Dec2022 06:35:40.360] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.particle.ParticleEngine was not found findme-common.mixins.json:ParticleEngineAccessor
+[31Dec2022 06:35:42.485] [main/INFO] [com.unrealdinnerbone.delogger.LoggerHacks/]: !!! SOME LOGGERS HAVE MOVED TO THE DEBUG FILE (Please Include them in your bug reports) !!!
+[31Dec2022 06:35:54.962] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/world/inventory/AnvilMenu
+[31Dec2022 06:36:02.478] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Patching FishingHook#catchingFish
+[31Dec2022 06:36:06.030] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/world/item/EnchantedBookItem
+[31Dec2022 06:36:07.537] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#getMaxLevel() in net/minecraft/world/level/storage/loot/functions/EnchantRandomlyFunction
+[31Dec2022 06:36:07.538] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#isDiscoverable() in net/minecraft/world/level/storage/loot/functions/EnchantRandomlyFunction
+[31Dec2022 06:36:13.365] [modloading-worker-0/WARN] [ReAuth/]: ###############################
+[31Dec2022 06:36:13.366] [modloading-worker-0/WARN] [ReAuth/]: # ReAuth was loaded on Server #
+[31Dec2022 06:36:13.366] [modloading-worker-0/WARN] [ReAuth/]: #     Consider removing it    #
+[31Dec2022 06:36:13.367] [modloading-worker-0/WARN] [ReAuth/]: ###############################
+[31Dec2022 06:36:14.926] [modloading-worker-0/INFO] [net.permutated.novillagerdm.NoVillagerDeathMessages/]: Registering mod: novillagerdm
+[31Dec2022 06:36:14.929] [modloading-worker-0/ERROR] [packmenu/]: Running on a dedicated server, disabling mod.
+[31Dec2022 06:36:15.200] [modloading-worker-0/INFO] [PluginManager/]: Scanning classes for industrialforegoing
+[31Dec2022 06:36:15.228] [modloading-worker-0/INFO] [PluginManager/]: Found FeaturePluginInstance for class CuriosPlugin for plugin curios
+[31Dec2022 06:36:15.236] [modloading-worker-0/INFO] [PluginManager/]: Constructed class CuriosPlugin for plugin curios for mod industrialforegoing
+[31Dec2022 06:36:15.240] [modloading-worker-0/INFO] [PluginManager/]: Executing phase CONSTRUCTION for plugin class CuriosPlugin
+[31Dec2022 06:36:15.298] [modloading-worker-0/INFO] [PluginManager/]: Executing phase PRE_INIT for plugin class CuriosPlugin
+[31Dec2022 06:36:15.699] [modloading-worker-0/INFO] [ironfurnaces.IronFurnaces/]: Initializing Update Checker...
+[31Dec2022 06:36:15.709] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Starting Update Check...
+[31Dec2022 06:36:17.041] [modloading-worker-0/INFO] [PluginManager/]: Executing phase INIT for plugin class CuriosPlugin
+[31Dec2022 06:36:17.758] [modloading-worker-0/INFO] [PluginManager/]: Executing phase POST_INIT for plugin class CuriosPlugin
+[31Dec2022 06:36:17.795] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Update Check done!
+[31Dec2022 06:36:17.796] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Iron Furnaces is up to date!
+[31Dec2022 06:36:19.901] [modloading-worker-0/INFO] [net.bdew.lib.network.NetChannel/]: Initialized network channel 'multiblock' for mod 'bdlib'
+[31Dec2022 06:36:19.929] [modloading-worker-0/INFO] [net.bdew.lib.network.NetChannel/]: Initialized network channel 'misc' for mod 'bdlib'
+[31Dec2022 06:36:19.961] [modloading-worker-0/INFO] [net.bdew.lib.BdLib$/]: Initialized multiblock manager for advgenerators
+[31Dec2022 06:36:20.080] [modloading-worker-0/INFO] [net.bdew.lib.network.NetChannel/]: Initialized network channel 'generators' for mod 'advgenerators'
+[31Dec2022 06:36:20.552] [modloading-worker-0/INFO] [se.gory_moon.chargers.repack.registrate.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
+[31Dec2022 06:36:23.705] [modloading-worker-0/WARN] [net.blay09.mods.balm.forge.config.ForgeBalmConfig/]: Config field without expected type, will not validate list content (merchantNames in net.blay09.mods.farmingforblockheads.FarmingForBlockheadsConfigData)
+[31Dec2022 06:36:26.299] [modloading-worker-0/INFO] [pneumaticcraft/]: Thirdparty integration activated for [theoneprobe,cofh_core,immersiveengineering,computercraft,jei,botania,mekanism,curios,patchouli,create]
+[31Dec2022 06:36:26.299] [modloading-worker-0/ERROR] [pneumaticcraft/]: CoFH IEnchantableItem interface is not where we expected! Continuing, but PneumaticCraft items won't be able to use the Holding enchantment. Notify the PNC mod author, including the versions of PNC and CoFH Core you're using, if you see this error.
+[31Dec2022 06:36:32.991] [modloading-worker-0/INFO] [showcaseitem/]: Loading config: /home/clarinetcombo/atm7sky/config/showcaseitem-common.toml
+[31Dec2022 06:36:32.994] [modloading-worker-0/INFO] [showcaseitem/]: Built config: /home/clarinetcombo/atm7sky/config/showcaseitem-common.toml
+[31Dec2022 06:36:32.999] [modloading-worker-0/INFO] [showcaseitem/]: Loaded config: /home/clarinetcombo/atm7sky/config/showcaseitem-common.toml
+[31Dec2022 06:36:34.401] [modloading-worker-0/INFO] [Advanced Peripherals/]: AdvancedPeripherals says hello!
+[31Dec2022 06:36:34.642] [modloading-worker-0/WARN] [Advanced Peripherals/]: Successfully loaded integration for botania
+[31Dec2022 06:36:34.687] [modloading-worker-0/WARN] [Advanced Peripherals/]: Successfully loaded integration for create
+[31Dec2022 06:36:35.127] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[31Dec2022 06:36:35.129] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[31Dec2022 06:36:35.131] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[31Dec2022 06:36:35.134] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[31Dec2022 06:36:35.138] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[31Dec2022 06:36:35.139] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[31Dec2022 06:36:36.064] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 40.1.84, for MC 1.18.2 with MCP 20220404.173914
+[31Dec2022 06:36:36.065] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v40.1.84 Initialized
+[31Dec2022 06:36:40.722] [modloading-worker-0/INFO] [twilightforest/]: Loaded compatibility for mod Tinkers Construct.
+[31Dec2022 06:36:40.724] [modloading-worker-0/INFO] [twilightforest/]: Skipped compatibility for mod undergarden.
+[31Dec2022 06:36:40.729] [modloading-worker-0/INFO] [twilightforest/]: Loaded compatibility for mod Immersive Engineering.
+[31Dec2022 06:36:40.731] [modloading-worker-0/INFO] [twilightforest/]: Loaded compatibility for mod Curios.
+[31Dec2022 06:36:40.904] [modloading-worker-0/INFO] [net.permutated.exmachinis.ExMachinis/]: Registering mod: exmachinis
+[31Dec2022 06:36:44.091] [modloading-worker-0/INFO] [dev.wuffs.squatgrow.SquatGrow/]: Config loading
+[31Dec2022 06:36:44.097] [modloading-worker-0/INFO] [dev.wuffs.squatgrow.SquatGrow/]: Tags: []
+[31Dec2022 06:36:44.098] [modloading-worker-0/INFO] [dev.wuffs.squatgrow.SquatGrow/]: Wildcards: []
+[31Dec2022 06:36:47.013] [modloading-worker-0/INFO] [com.tterrag.registrate.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
+[31Dec2022 06:36:47.024] [modloading-worker-0/INFO] [com.tterrag.registrate.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
+[31Dec2022 06:36:50.923] [modloading-worker-0/ERROR] [toastcontrol/]: Running on a dedicated server, disabling mod.
+[31Dec2022 06:36:51.598] [modloading-worker-0/INFO] [KubeJS/]: Looking for KubeJS plugins...
+[31Dec2022 06:36:51.630] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source kubejs
+[31Dec2022 06:36:51.691] [modloading-worker-0/ERROR] [KubeJS/]: Failed to load plugin dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration from source kubejs: java.lang.NoClassDefFoundError: net/darkhax/gamestages/event/GameStageEvent
+[31Dec2022 06:36:51.699] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source lazierae2
+[31Dec2022 06:36:51.774] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source kubejs_thermal
+[31Dec2022 06:36:51.795] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source ftbic
+[31Dec2022 06:36:51.811] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source ftbquests
+[31Dec2022 06:36:51.838] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source kubejs_create
+[31Dec2022 06:36:51.897] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source kubejs_immersive_engineering
+[31Dec2022 06:36:51.904] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source exnihilosequentia
+[31Dec2022 06:36:51.914] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source kubejs_mekanism
+[31Dec2022 06:36:51.989] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source ponderjs
+[31Dec2022 06:36:51.992] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source ftbchunks
+[31Dec2022 06:36:52.021] [modloading-worker-0/INFO] [KubeJS/]: Done in 423.6 ms
+[31Dec2022 06:36:52.437] [modloading-worker-0/INFO] [KubeJS/]: Loaded common.properties
+[31Dec2022 06:36:53.075] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Loading Rhino Minecraft remapper...
+[31Dec2022 06:36:53.080] [modloading-worker-0/INFO] [dev.latvian.mods.rhino.mod.util.RhinoProperties/]: Rhino properties loaded.
+[31Dec2022 06:36:53.092] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Loading mappings for 1.18.2
+[31Dec2022 06:36:53.757] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Done in 0.681 s
+[31Dec2022 06:36:55.073] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:customMekanism.js in 0.269 s
+[31Dec2022 06:36:55.078] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:worldgen.js in 0.004 s
+[31Dec2022 06:36:55.080] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:custom_stuff.js in 0.002 s
+[31Dec2022 06:36:55.103] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded 3/3 KubeJS startup scripts in 2.505 s
+[31Dec2022 06:36:55.326] [modloading-worker-0/WARN] [KubeJS Startup/]: Class filter is disabled!
+[31Dec2022 06:36:56.202] [modloading-worker-0/INFO] [Mystical Agriculture/]: Registered plugin: com.blakebr0.mysticalagriculture.lib.ModCorePlugin
+[31Dec2022 06:36:56.269] [modloading-worker-0/INFO] [Mystical Agriculture/]: Registered plugin: com.blakebr0.mysticalcustomization.lib.ModCorePlugin
+[31Dec2022 06:36:56.380] [modloading-worker-0/INFO] [Mystical Agriculture/]: Registered plugin: com.blakebr0.mysticalagradditions.lib.ModCorePlugin
+[31Dec2022 06:36:56.552] [modloading-worker-0/WARN] [net.blay09.mods.balm.forge.config.ForgeBalmConfig/]: Config field without expected type, will not validate list content (compressBlacklist in net.blay09.mods.craftingtweaks.config.CraftingTweaksConfigData$Common)
+[31Dec2022 06:36:56.561] [modloading-worker-0/WARN] [net.blay09.mods.balm.forge.config.ForgeBalmConfig/]: Config field without expected type, will not validate list content (disabledAddons in net.blay09.mods.craftingtweaks.config.CraftingTweaksConfigData$Client)
+[31Dec2022 06:36:57.254] [modloading-worker-0/INFO] [PluginManager/]: Scanning classes for titanium
+[31Dec2022 06:36:58.867] [modloading-worker-0/INFO] [net.permutated.pylons.Pylons/]: Registering mod: pylons
+[31Dec2022 06:36:58.933] [modloading-worker-0/INFO] [net.permutated.pylons.Pylons/]: Registered 1 network packets
+[31Dec2022 06:36:59.201] [modloading-worker-0/INFO] [wile.engineersdecor.ModEngineersDecor/]: Engineer's Decor GIT id #837b867.
+[31Dec2022 06:36:59.393] [modloading-worker-0/INFO] [PluginManager/]: Scanning classes for functionalstorage
+[31Dec2022 06:36:59.397] [modloading-worker-0/INFO] [PluginManager/]: Found FeaturePluginInstance for class TOPPlugin for plugin theoneprobe
+[31Dec2022 06:36:59.398] [modloading-worker-0/INFO] [PluginManager/]: Constructed class TOPPlugin for plugin theoneprobe for mod functionalstorage
+[31Dec2022 06:36:59.399] [modloading-worker-0/INFO] [PluginManager/]: Executing phase CONSTRUCTION for plugin class TOPPlugin
+[31Dec2022 06:36:59.401] [modloading-worker-0/INFO] [PluginManager/]: Executing phase PRE_INIT for plugin class TOPPlugin
+[31Dec2022 06:36:59.608] [modloading-worker-0/INFO] [PluginManager/]: Executing phase INIT for plugin class TOPPlugin
+[31Dec2022 06:36:59.622] [modloading-worker-0/INFO] [PluginManager/]: Executing phase POST_INIT for plugin class TOPPlugin
+[31Dec2022 06:37:00.124] [modloading-worker-0/INFO] [com.tterrag.registrate.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
+[31Dec2022 06:38:05.030] [main/INFO] [wile.engineersdecor.ModEngineersDecor/]: Immersive Engineering also installed ...
+[31Dec2022 06:38:08.587] [main/INFO] [com.github.klikli_dev.occultism.Occultism/]: Registered BlockItems
+[31Dec2022 06:38:08.597] [main/INFO] [com.github.klikli_dev.occultism.Occultism/]: Registered compostable Items
+[31Dec2022 06:38:12.713] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry mekanism:slurry: The object [Slurry: alltheores:dirty_aluminum] has been registered twice for the same name alltheores:dirty_aluminum.
+[31Dec2022 06:38:12.714] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry mekanism:slurry: The object [Slurry: alltheores:dirty_nickel] has been registered twice for the same name alltheores:dirty_nickel.
+[31Dec2022 06:38:12.715] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry mekanism:slurry: The object [Slurry: alltheores:dirty_platinum] has been registered twice for the same name alltheores:dirty_platinum.
+[31Dec2022 06:38:12.715] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry mekanism:slurry: The object [Slurry: alltheores:dirty_silver] has been registered twice for the same name alltheores:dirty_silver.
+[31Dec2022 06:38:12.716] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry mekanism:slurry: The object [Slurry: alltheores:dirty_tin] has been registered twice for the same name alltheores:dirty_tin.
+[31Dec2022 06:38:12.716] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry mekanism:slurry: The object [Slurry: alltheores:dirty_zinc] has been registered twice for the same name alltheores:dirty_zinc.
+[31Dec2022 06:38:12.716] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry mekanism:slurry: The object [Slurry: alltheores:clean_aluminum] has been registered twice for the same name alltheores:clean_aluminum.
+[31Dec2022 06:38:12.716] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry mekanism:slurry: The object [Slurry: alltheores:clean_nickel] has been registered twice for the same name alltheores:clean_nickel.
+[31Dec2022 06:38:12.717] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry mekanism:slurry: The object [Slurry: alltheores:clean_platinum] has been registered twice for the same name alltheores:clean_platinum.
+[31Dec2022 06:38:12.717] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry mekanism:slurry: The object [Slurry: alltheores:clean_silver] has been registered twice for the same name alltheores:clean_silver.
+[31Dec2022 06:38:12.717] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry mekanism:slurry: The object [Slurry: alltheores:clean_tin] has been registered twice for the same name alltheores:clean_tin.
+[31Dec2022 06:38:12.718] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry mekanism:slurry: The object [Slurry: alltheores:clean_zinc] has been registered twice for the same name alltheores:clean_zinc.
+[31Dec2022 06:38:13.621] [main/INFO] [wayoftime.bloodmagic.BloodMagic/]: Attempting to register Tile Entities
+[31Dec2022 06:38:20.903] [main/INFO] [alltheores/]: AllTheOres: loading config
+[31Dec2022 06:38:20.907] [Thread-0/INFO] [alltheores/]: AllTheOres: loading config
+[31Dec2022 06:38:20.914] [Thread-0/INFO] [alltheores/]: AllTheOres: loading config
+[31Dec2022 06:38:20.946] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class CuriosPlugin
+[31Dec2022 06:38:20.948] [Thread-0/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class CuriosPlugin
+[31Dec2022 06:38:20.949] [Thread-0/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class CuriosPlugin
+[31Dec2022 06:38:20.950] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class CuriosPlugin
+[31Dec2022 06:38:20.953] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class CuriosPlugin
+[31Dec2022 06:38:20.959] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class CuriosPlugin
+[31Dec2022 06:38:20.960] [Thread-0/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class CuriosPlugin
+[31Dec2022 06:38:20.965] [Thread-0/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class CuriosPlugin
+[31Dec2022 06:38:20.968] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class CuriosPlugin
+[31Dec2022 06:38:20.969] [Thread-0/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class CuriosPlugin
+[31Dec2022 06:38:20.970] [Thread-0/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class CuriosPlugin
+[31Dec2022 06:38:21.077] [Thread-0/FATAL] [mcjty.theoneprobe.TheOneProbe/CORE]: theoneprobe config just got changed on the file system!
+[31Dec2022 06:38:21.079] [Thread-0/FATAL] [mcjty.theoneprobe.TheOneProbe/CORE]: theoneprobe config just got changed on the file system!
+[31Dec2022 06:38:21.549] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class TOPPlugin
+[31Dec2022 06:38:21.550] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class TOPPlugin
+[31Dec2022 06:38:21.551] [Thread-0/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class TOPPlugin
+[31Dec2022 06:38:21.554] [Thread-0/INFO] [wile.engineersdecor.ModEngineersDecor/]: Config file changed engineersdecor-common.toml
+[31Dec2022 06:38:21.555] [Thread-0/INFO] [wile.engineersdecor.ModEngineersDecor/]: Config file changed engineersdecor-common.toml
+[31Dec2022 06:38:21.559] [Thread-0/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class TOPPlugin
+[31Dec2022 06:38:21.653] [modloading-worker-0/INFO] [integrateddynamics/]: Registered packet handler.
+[31Dec2022 06:38:21.833] [modloading-worker-0/INFO] [PluginManager/]: Executing phase COMMON_SETUP for plugin class CuriosPlugin
+[31Dec2022 06:38:22.122] [modloading-worker-0/INFO] [thetadev.constructionwand.ConstructionWand/]: ConstructionWand says hello - may the odds be ever in your favor.
+[31Dec2022 06:38:22.151] [modloading-worker-0/INFO] [thetadev.constructionwand.ConstructionWand/]: Botania integration added
+[31Dec2022 06:38:22.600] [modloading-worker-0/INFO] [Mekanism/]: Version 10.2.5 initializing...
+[31Dec2022 06:38:23.009] [modloading-worker-0/INFO] [Mekanism/]: Fake player readout: UUID = 46e82cd0-d480-3d48-800a-77431ede078e, name = [Mekanism]
+[31Dec2022 06:38:23.010] [modloading-worker-0/INFO] [Mekanism/]: Mod loaded.
+[31Dec2022 06:38:23.047] [modloading-worker-0/INFO] [pneumaticcraft/]: PneumaticCraft: Repressurized is loading!
+[31Dec2022 06:38:23.143] [modloading-worker-0/INFO] [mythicbotany/]: Loading MythicBotany
+[31Dec2022 06:38:23.417] [Immersive Engineering Contributors Thread/INFO] [immersiveengineering/]: Attempting to download special revolvers from GitHub
+[31Dec2022 06:38:24.101] [modloading-worker-0/INFO] [integrateddynamicscompat/]: Registered packet handler.
+[31Dec2022 06:38:24.165] [modloading-worker-0/INFO] [integrateddynamics/]: Registered packet handler.
+[31Dec2022 06:38:24.383] [modloading-worker-0/INFO] [com.darkere.serverconfigupdater.ServerConfigUpdater/]: Attempting to delete 1 files/folders defined in config
+[31Dec2022 06:38:24.746] [modloading-worker-0/INFO] [com.connectivity.Connectivity/]: Connectivity initialized
+[31Dec2022 06:38:24.823] [modloading-worker-0/INFO] [com.github.klikli_dev.occultism.Occultism/]: Common setup complete.
+[31Dec2022 06:38:25.066] [modloading-worker-0/INFO] [Mekanism/]: Loaded 'Mekanism Generators' module.
+[31Dec2022 06:38:25.407] [modloading-worker-0/ERROR] [patchouli/]: Failed to load book mysticalagradditions:guide defined by mod mysticalagradditions, skipping
+com.google.gson.JsonSyntaxException: Missing name, expected to find a string
+	at net.minecraft.util.GsonHelper.m_13906_(GsonHelper.java:112) ~[server-1.18.2-20220404.173914-srg.jar%23266!/:?]
+	at vazkii.patchouli.common.book.Book.<init>(Book.java:122) ~[Patchouli-1.18.2-71.1.jar%23199!/:1.18.2-71.1]
+	at vazkii.patchouli.common.book.BookRegistry.loadBook(BookRegistry.java:116) ~[Patchouli-1.18.2-71.1.jar%23199!/:1.18.2-71.1]
+	at vazkii.patchouli.common.book.BookRegistry.lambda$init$3(BookRegistry.java:76) ~[Patchouli-1.18.2-71.1.jar%23199!/:1.18.2-71.1]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at vazkii.patchouli.common.book.BookRegistry.init(BookRegistry.java:71) ~[Patchouli-1.18.2-71.1.jar%23199!/:1.18.2-71.1]
+	at vazkii.patchouli.forge.common.ForgeModInitializer.onInitialize(ForgeModInitializer.java:59) ~[Patchouli-1.18.2-71.1.jar%23199!/:1.18.2-71.1]
+	at net.minecraftforge.eventbus.ASMEventHandler_699_ForgeModInitializer_onInitialize_FMLCommonSetupEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85) ~[eventbus-5.0.3.jar%232!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) ~[eventbus-5.0.3.jar%232!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) ~[eventbus-5.0.3.jar%232!/:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:106) ~[javafmllanguage-1.18.2-40.1.84.jar%23268!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:107) ~[fmlcore-1.18.2-40.1.84.jar%23267!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[31Dec2022 06:38:25.436] [modloading-worker-0/WARN] [patchouli/]: Book botania:lexicon is a resource-pack-based book. Extension books are unnecessary for resource-pack-based books. You should simply create a resource pack with the extra content you want to add or override.
+[31Dec2022 06:38:25.573] [modloading-worker-0/INFO] [Mekanism/]: Loaded 'Mekanism: Tools' module.
+[31Dec2022 06:38:25.705] [modloading-worker-0/INFO] [cy.jdkdigital.productivebees.ProductiveBees/]: Adding modded beehives to vanilla beehive POI
+[31Dec2022 06:38:26.070] [modloading-worker-0/INFO] [mcjtylib/]: RFTools Storage Detected XNet: enabling support
+[31Dec2022 06:38:26.409] [modloading-worker-0/WARN] [FluxNetworks/]: Use FML network channel (low performance)
+[31Dec2022 06:38:26.789] [modloading-worker-0/INFO] [com.klikli_dev.modonomicon.Modonomicon/]: Common setup complete.
+[31Dec2022 06:38:27.033] [modloading-worker-0/INFO] [PluginManager/]: Executing phase COMMON_SETUP for plugin class TOPPlugin
+[31Dec2022 06:38:28.916] [modloading-worker-0/INFO] [com.github.klikli_dev.occultism.Occultism/]: Dedicated server setup complete.
+[31Dec2022 06:38:28.931] [modloading-worker-0/INFO] [com.klikli_dev.modonomicon.Modonomicon/]: Dedicated server setup complete.
+[31Dec2022 06:38:29.171] [modloading-worker-0/INFO] [pneumaticcraft/]: Enabled support for The One Probe
+[31Dec2022 06:38:29.193] [modloading-worker-0/INFO] [mcjtylib/]: Enabled support for The One Probe
+[31Dec2022 06:38:29.196] [modloading-worker-0/INFO] [mcjtylib/]: Enabled support for The One Probe
+[31Dec2022 06:38:29.196] [modloading-worker-0/INFO] [tombstone/]: Integration TOP
+[31Dec2022 06:38:29.551] [modloading-worker-0/INFO] [novamachina.exnihilosequentia.common.compat.top.CompatTOP.GetTheOneProbe/]: [Ex Nihilo: Sequentia]: Enabled support for The One Probe
+[31Dec2022 06:38:29.629] [modloading-worker-0/INFO] [net.blay09.mods.craftingtweaks.IMCHandler/]: slabmachines has registered com.mrbysco.slabmachines.container.SlabBenchContainer for CraftingTweaks
+[31Dec2022 06:38:29.670] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying mega torch entity block list overrides...
+[31Dec2022 06:38:29.670] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying dread lamp entity block list overrides...
+[31Dec2022 06:38:29.676] [modloading-worker-0/INFO] [AttributeFix/]: Loaded values for 35 compatible attributes.
+[31Dec2022 06:38:29.693] [modloading-worker-0/INFO] [AttributeFix/]: Loaded 35 values from config.
+[31Dec2022 06:38:29.734] [modloading-worker-0/INFO] [AttributeFix/]: Saving config file. 35 entries.
+[31Dec2022 06:38:29.736] [modloading-worker-0/INFO] [AttributeFix/]: Applying changes for 35 attributes.
+[31Dec2022 06:38:30.284] [modloading-worker-0/ERROR] [bloodmagic/]: MysticalAgriculture integration cancelled: unable to find a class: com.blakebr0.mysticalagriculture.api.crop.ICrop
+[31Dec2022 06:40:02.946] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/home/clarinetcombo/atm7sky/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%23266!/assets/.mcassetsroot' uses unexpected schema
+[31Dec2022 06:40:02.949] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/home/clarinetcombo/atm7sky/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%23266!/data/.mcassetsroot' uses unexpected schema
+[31Dec2022 06:40:07.500] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:constants.js in 0.092 s
+[31Dec2022 06:40:07.577] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:tags.js in 0.075 s
+[31Dec2022 06:40:07.714] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:unify.js in 0.129 s
+[31Dec2022 06:40:07.747] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:mod_specific/ex_nihilo/ex_nihilo.js in 0.032 s
+[31Dec2022 06:40:07.754] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:xpFluids.js in 0.006 s
+[31Dec2022 06:40:07.761] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:stonecutting.js in 0.006 s
+[31Dec2022 06:40:07.768] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:craftingenhancements.js in 0.006 s
+[31Dec2022 06:40:07.770] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:mod_specific/buildinggadgets/buildinggadgets.js in 0.002 s
+[31Dec2022 06:40:07.781] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:mod_specific/misc/tweaks.js in 0.01 s
+[31Dec2022 06:40:07.788] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:mod_specific/misc/music_discs.js in 0.006 s
+[31Dec2022 06:40:07.792] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:mod_specific/ae/ae.js in 0.003 s
+[31Dec2022 06:40:07.804] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:mod_specific/projecte/projectE.js in 0.012 s
+[31Dec2022 06:40:07.829] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:mod_specific/projecte/worldTransmute.js in 0.024 s
+[31Dec2022 06:40:07.833] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:mod_specific/computercraft/computercraft.js in 0.004 s
+[31Dec2022 06:40:07.841] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:mod_specific/thermal/rock_gen.js in 0.007 s
+[31Dec2022 06:40:07.847] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:mod_specific/cobblefordays/cobblegen.js in 0.005 s
+[31Dec2022 06:40:07.849] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:mod_specific/twilightforest/twilight.js in 0.001 s
+[31Dec2022 06:40:07.853] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:mod_specific/functionalstorge/compacting.js in 0.003 s
+[31Dec2022 06:40:07.861] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:mod_specific/mekanism/mekanism.js in 0.007 s
+[31Dec2022 06:40:07.879] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:mod_specific/mekanism/cobalt.js in 0.017 s
+[31Dec2022 06:40:07.888] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:mod_specific/ATM/atm_star_creative.js in 0.009 s
+[31Dec2022 06:40:07.891] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:mod_specific/ATM/atm_star.js in 0.003 s
+[31Dec2022 06:40:07.892] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:mod_specific/ATM/atm_shard.js in 0.0 s
+[31Dec2022 06:40:07.961] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:mod_specific/ATM/custom_recipes.js in 0.069 s
+[31Dec2022 06:40:07.963] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:mod_specific/ATM/allthemodium.js in 0.001 s
+[31Dec2022 06:40:07.964] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:mod_specific/rftools/rftools.js in 0.001 s
+[31Dec2022 06:40:07.964] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:mod_specific/occultism/iesnium.js in 0.0 s
+[31Dec2022 06:40:07.969] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:mod_specific/notenoughwands/removals.js in 0.005 s
+[31Dec2022 06:40:07.970] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:mod_specific/reliquary/removals.js in 0.0 s
+[31Dec2022 06:40:07.970] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:mod_specific/exmachinis/orepiece.js in 0.0 s
+[31Dec2022 06:40:07.971] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:mod_specific/exmachinis/pebble.js in 0.001 s
+[31Dec2022 06:40:07.972] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:mod_specific/exmachinis/raw_ore.js in 0.001 s
+[31Dec2022 06:40:07.972] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:mod_specific/apotheosis/removals.js in 0.0 s
+[31Dec2022 06:40:07.988] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:mod_specific/spirit/transmutation.js in 0.016 s
+[31Dec2022 06:40:08.001] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:mod_specific/ftbic/ftbic.js in 0.013 s
+[31Dec2022 06:40:08.002] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:mod_specific/ex_nihilo/ex_nihilo_pebbles.js in 0.001 s
+[31Dec2022 06:40:08.003] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:mod_specific/mysticalagriculture/ma_crafting.js in 0.001 s
+[31Dec2022 06:40:08.003] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:mod_specific/mysticalagriculture/mysticalagriculture.js in 0.0 s
+[31Dec2022 06:40:08.006] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:mod_specific/mysticalagriculture/ma_crops.js in 0.002 s
+[31Dec2022 06:40:08.048] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:sawmillCompat.js in 0.042 s
+[31Dec2022 06:40:08.049] [main/INFO] [KubeJS Server/]: Loaded 40/40 KubeJS server scripts in 0.73 s
+[31Dec2022 06:40:08.051] [main/INFO] [KubeJS Server/]: Scripts loaded
+[31Dec2022 06:40:08.059] [main/INFO] [KubeJS/]: Registered custom recipe handler for type kubejs:shaped
+[31Dec2022 06:40:08.060] [main/INFO] [KubeJS/]: Registered custom recipe handler for type kubejs:shapeless
+[31Dec2022 06:40:08.060] [main/INFO] [KubeJS/]: Registered custom recipe handler for type minecraft:crafting_shaped
+[31Dec2022 06:40:08.060] [main/INFO] [KubeJS/]: Registered custom recipe handler for type minecraft:crafting_shapeless
+[31Dec2022 06:40:08.061] [main/INFO] [KubeJS/]: Registered custom recipe handler for type minecraft:stonecutting
+[31Dec2022 06:40:08.062] [main/INFO] [KubeJS/]: Registered custom recipe handler for type minecraft:smelting
+[31Dec2022 06:40:08.063] [main/INFO] [KubeJS/]: Registered custom recipe handler for type minecraft:blasting
+[31Dec2022 06:40:08.063] [main/INFO] [KubeJS/]: Registered custom recipe handler for type minecraft:smoking
+[31Dec2022 06:40:08.063] [main/INFO] [KubeJS/]: Registered custom recipe handler for type minecraft:campfire_cooking
+[31Dec2022 06:40:08.064] [main/INFO] [KubeJS/]: Registered custom recipe handler for type minecraft:smithing
+[31Dec2022 06:40:08.064] [main/INFO] [KubeJS/]: Registered custom recipe handler for type cucumber:shaped_no_mirror
+[31Dec2022 06:40:08.080] [main/INFO] [KubeJS/]: Registered custom recipe handler for type mysticalagriculture:tag
+[31Dec2022 06:40:08.085] [main/INFO] [KubeJS/]: Registered custom recipe handler for type botania:runic_altar
+[31Dec2022 06:40:08.089] [main/INFO] [KubeJS/]: Registered custom recipe handler for type integrateddynamics:squeezer
+[31Dec2022 06:40:08.091] [main/INFO] [KubeJS/]: Registered custom recipe handler for type integrateddynamics:mechanical_squeezer
+[31Dec2022 06:40:08.094] [main/INFO] [KubeJS/]: Registered custom recipe handler for type ars_nouveau:enchanting_apparatus
+[31Dec2022 06:40:08.098] [main/INFO] [KubeJS/]: Registered custom recipe handler for type ars_nouveau:enchantment
+[31Dec2022 06:40:08.104] [main/WARN] [KubeJS Server/]: Failed to register handler for recipe type ars_nouveau:glyph_recipe as it doesn't exist!
+[31Dec2022 06:40:08.106] [main/INFO] [KubeJS/]: Registered custom recipe handler for type lazierae2:aggregator
+[31Dec2022 06:40:08.107] [main/INFO] [KubeJS/]: Registered custom recipe handler for type lazierae2:etcher
+[31Dec2022 06:40:08.109] [main/INFO] [KubeJS/]: Registered custom recipe handler for type lazierae2:grinder
+[31Dec2022 06:40:08.110] [main/INFO] [KubeJS/]: Registered custom recipe handler for type lazierae2:infuser
+[31Dec2022 06:40:08.117] [main/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:furnace
+[31Dec2022 06:40:08.119] [main/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:sawmill
+[31Dec2022 06:40:08.120] [main/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:pulverizer
+[31Dec2022 06:40:08.121] [main/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:smelter
+[31Dec2022 06:40:08.125] [main/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:insolator
+[31Dec2022 06:40:08.126] [main/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:centrifuge
+[31Dec2022 06:40:08.127] [main/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:press
+[31Dec2022 06:40:08.128] [main/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:crucible
+[31Dec2022 06:40:08.129] [main/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:chiller
+[31Dec2022 06:40:08.131] [main/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:refinery
+[31Dec2022 06:40:08.132] [main/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:pyrolyzer
+[31Dec2022 06:40:08.134] [main/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:brewer
+[31Dec2022 06:40:08.135] [main/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:bottler
+[31Dec2022 06:40:08.138] [main/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:pulverizer_catalyst
+[31Dec2022 06:40:08.139] [main/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:smelter_catalyst
+[31Dec2022 06:40:08.141] [main/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:insolator_catalyst
+[31Dec2022 06:40:08.144] [main/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:stirling_fuel
+[31Dec2022 06:40:08.146] [main/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:compression_fuel
+[31Dec2022 06:40:08.147] [main/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:magmatic_fuel
+[31Dec2022 06:40:08.148] [main/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:numismatic_fuel
+[31Dec2022 06:40:08.149] [main/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:lapidary_fuel
+[31Dec2022 06:40:08.153] [main/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:tree_extractor
+[31Dec2022 06:40:08.156] [main/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:tree_extractor_boost
+[31Dec2022 06:40:08.160] [main/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:fisher_boost
+[31Dec2022 06:40:08.163] [main/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:rock_gen
+[31Dec2022 06:40:08.167] [main/INFO] [KubeJS/]: Registered custom recipe handler for type thermal:potion_diffuser_boost
+[31Dec2022 06:40:08.171] [main/INFO] [KubeJS/]: Registered custom recipe handler for type ftbic:smelting
+[31Dec2022 06:40:08.172] [main/INFO] [KubeJS/]: Registered custom recipe handler for type ftbic:macerating
+[31Dec2022 06:40:08.173] [main/INFO] [KubeJS/]: Registered custom recipe handler for type ftbic:separating
+[31Dec2022 06:40:08.175] [main/INFO] [KubeJS/]: Registered custom recipe handler for type ftbic:compressing
+[31Dec2022 06:40:08.176] [main/INFO] [KubeJS/]: Registered custom recipe handler for type ftbic:reprocessing
+[31Dec2022 06:40:08.177] [main/INFO] [KubeJS/]: Registered custom recipe handler for type ftbic:canning
+[31Dec2022 06:40:08.178] [main/INFO] [KubeJS/]: Registered custom recipe handler for type ftbic:rolling
+[31Dec2022 06:40:08.179] [main/INFO] [KubeJS/]: Registered custom recipe handler for type ftbic:extruding
+[31Dec2022 06:40:08.183] [main/INFO] [KubeJS/]: Registered custom recipe handler for type create:sequenced_assembly
+[31Dec2022 06:40:08.184] [main/INFO] [KubeJS/]: Registered custom recipe handler for type create:mechanical_crafting
+[31Dec2022 06:40:08.185] [main/INFO] [KubeJS/]: Registered custom recipe handler for type create:conversion
+[31Dec2022 06:40:08.186] [main/INFO] [KubeJS/]: Registered custom recipe handler for type create:crushing
+[31Dec2022 06:40:08.186] [main/INFO] [KubeJS/]: Registered custom recipe handler for type create:cutting
+[31Dec2022 06:40:08.187] [main/INFO] [KubeJS/]: Registered custom recipe handler for type create:milling
+[31Dec2022 06:40:08.187] [main/INFO] [KubeJS/]: Registered custom recipe handler for type create:basin
+[31Dec2022 06:40:08.188] [main/INFO] [KubeJS/]: Registered custom recipe handler for type create:mixing
+[31Dec2022 06:40:08.188] [main/INFO] [KubeJS/]: Registered custom recipe handler for type create:compacting
+[31Dec2022 06:40:08.189] [main/INFO] [KubeJS/]: Registered custom recipe handler for type create:pressing
+[31Dec2022 06:40:08.189] [main/INFO] [KubeJS/]: Registered custom recipe handler for type create:sandpaper_polishing
+[31Dec2022 06:40:08.190] [main/INFO] [KubeJS/]: Registered custom recipe handler for type create:splashing
+[31Dec2022 06:40:08.190] [main/INFO] [KubeJS/]: Registered custom recipe handler for type create:haunting
+[31Dec2022 06:40:08.191] [main/INFO] [KubeJS/]: Registered custom recipe handler for type create:deploying
+[31Dec2022 06:40:08.192] [main/INFO] [KubeJS/]: Registered custom recipe handler for type create:filling
+[31Dec2022 06:40:08.192] [main/INFO] [KubeJS/]: Registered custom recipe handler for type create:emptying
+[31Dec2022 06:40:08.193] [main/INFO] [KubeJS/]: Registered custom recipe handler for type create:item_application
+[31Dec2022 06:40:08.193] [main/INFO] [KubeJS/]: Registered custom recipe handler for type immersiveengineering:turn_and_copy
+[31Dec2022 06:40:08.197] [main/INFO] [KubeJS/]: Registered custom recipe handler for type immersiveengineering:alloy
+[31Dec2022 06:40:08.198] [main/INFO] [KubeJS/]: Registered custom recipe handler for type immersiveengineering:blast_furnace
+[31Dec2022 06:40:08.200] [main/INFO] [KubeJS/]: Registered custom recipe handler for type immersiveengineering:blast_furnace_fuel
+[31Dec2022 06:40:08.202] [main/INFO] [KubeJS/]: Registered custom recipe handler for type immersiveengineering:coke_oven
+[31Dec2022 06:40:08.204] [main/INFO] [KubeJS/]: Registered custom recipe handler for type immersiveengineering:cloche
+[31Dec2022 06:40:08.206] [main/INFO] [KubeJS/]: Registered custom recipe handler for type immersiveengineering:fertilizer
+[31Dec2022 06:40:08.207] [main/INFO] [KubeJS/]: Registered custom recipe handler for type immersiveengineering:metal_press
+[31Dec2022 06:40:08.209] [main/INFO] [KubeJS/]: Registered custom recipe handler for type immersiveengineering:arc_furnace
+[31Dec2022 06:40:08.211] [main/INFO] [KubeJS/]: Registered custom recipe handler for type immersiveengineering:crusher
+[31Dec2022 06:40:08.213] [main/INFO] [KubeJS/]: Registered custom recipe handler for type immersiveengineering:sawmill
+[31Dec2022 06:40:08.215] [main/INFO] [KubeJS/]: Registered custom recipe handler for type immersiveengineering:squeezer
+[31Dec2022 06:40:08.217] [main/INFO] [KubeJS/]: Registered custom recipe handler for type immersiveengineering:mixer
+[31Dec2022 06:40:08.220] [main/INFO] [KubeJS/]: Registered custom recipe handler for type exnihilosequentia:compost
+[31Dec2022 06:40:08.221] [main/INFO] [KubeJS/]: Registered custom recipe handler for type exnihilosequentia:crook
+[31Dec2022 06:40:08.223] [main/INFO] [KubeJS/]: Registered custom recipe handler for type exnihilosequentia:crucible
+[31Dec2022 06:40:08.225] [main/INFO] [KubeJS/]: Registered custom recipe handler for type exnihilosequentia:fluid_item
+[31Dec2022 06:40:08.227] [main/INFO] [KubeJS/]: Registered custom recipe handler for type exnihilosequentia:fluid_on_top
+[31Dec2022 06:40:08.229] [main/INFO] [KubeJS/]: Registered custom recipe handler for type exnihilosequentia:fluid_transform
+[31Dec2022 06:40:08.229] [main/INFO] [KubeJS/]: Registered custom recipe handler for type exnihilosequentia:hammer
+[31Dec2022 06:40:08.231] [main/INFO] [KubeJS/]: Registered custom recipe handler for type exnihilosequentia:heat
+[31Dec2022 06:40:08.233] [main/INFO] [KubeJS/]: Registered custom recipe handler for type exnihilosequentia:sieve
+[31Dec2022 06:40:08.240] [main/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:crushing
+[31Dec2022 06:40:08.241] [main/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:enriching
+[31Dec2022 06:40:08.243] [main/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:smelting
+[31Dec2022 06:40:08.246] [main/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:chemical_infusing
+[31Dec2022 06:40:08.249] [main/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:combining
+[31Dec2022 06:40:08.252] [main/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:crystallizing
+[31Dec2022 06:40:08.260] [main/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:dissolution
+[31Dec2022 06:40:08.261] [main/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:compressing
+[31Dec2022 06:40:08.262] [main/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:purifying
+[31Dec2022 06:40:08.263] [main/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:injecting
+[31Dec2022 06:40:08.265] [main/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:energy_conversion
+[31Dec2022 06:40:08.266] [main/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:gas_conversion
+[31Dec2022 06:40:08.268] [main/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:oxidizing
+[31Dec2022 06:40:08.270] [main/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:metallurgic_infusing
+[31Dec2022 06:40:08.272] [main/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:reaction
+[31Dec2022 06:40:08.274] [main/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:sawing
+[31Dec2022 06:40:08.284] [main/INFO] [KubeJS Server/]: Scanning recipes...
+[31Dec2022 06:40:51.402] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/server/commands/EnchantCommand
+[31Dec2022 06:41:34.123] [Worker-Main-3/INFO] [KubeJS Server/]: [blocks] Found 1226 tags, added 1710 objects, removed 0 objects
+[31Dec2022 06:41:34.130] [Worker-Main-3/INFO] [KubeJS Server/]: [blocks] Found 1226 tags, added 1710 objects, removed 0 objects
+[31Dec2022 06:41:38.336] [Worker-Main-3/INFO] [KubeJS Server/]: [entity_types] Found 83 tags, added 106 objects, removed 0 objects
+[31Dec2022 06:41:52.844] [Worker-Main-3/INFO] [KubeJS Server/]: [items] Found 2961 tags, added 560 objects, removed 3 objects
+[31Dec2022 06:41:52.858] [Worker-Main-3/INFO] [KubeJS Server/]: [items] Found 2961 tags, added 560 objects, removed 3 objects
+[31Dec2022 06:45:08.881] [Worker-Main-3/INFO] [pneumaticcraft/]: ignoring heat properties for block byg:cryptic_campfire: mod not loaded
+[31Dec2022 06:45:09.636] [Worker-Main-3/WARN] [KubeJS Server/]: Failed to parse recipe 'createaddition:compat/tconstruct/pig_iron[create:mixing]': {"item":"minecraft:bottle","count":1} is not a valid result!
+[31Dec2022 06:45:09.960] [Worker-Main-3/INFO] [pneumaticcraft/]: ignoring heat properties for block byg:magmatic_stone: mod not loaded
+[31Dec2022 06:45:10.310] [Worker-Main-3/INFO] [pneumaticcraft/]: ignoring heat properties for block byg:boric_campfire: mod not loaded
+[31Dec2022 06:45:11.539] [Worker-Main-3/INFO] [pneumaticcraft/]: ignoring heat properties for block valhelsia_structures:brazier: mod not loaded
+[31Dec2022 06:45:11.806] [Worker-Main-3/INFO] [pneumaticcraft/]: ignoring heat properties for block betterendforge:emerald_ice: mod not loaded
+[31Dec2022 06:45:11.879] [Worker-Main-3/INFO] [pneumaticcraft/]: ignoring heat properties for block quark:permafrost: mod not loaded
+[31Dec2022 06:45:12.108] [Worker-Main-3/INFO] [pneumaticcraft/]: ignoring heat properties for block betterendforge:ancient_emerald_ice: mod not loaded
+[31Dec2022 06:45:12.154] [Worker-Main-3/INFO] [pneumaticcraft/]: ignoring heat properties for block betterendforge:dense_emerald_ice: mod not loaded
+[31Dec2022 06:45:12.173] [Worker-Main-3/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (createaddition:compat/tconstruct/pig_iron_2) has more item inputs (13) than supported (9).
+[31Dec2022 06:45:12.267] [Worker-Main-3/INFO] [pneumaticcraft/]: ignoring heat properties for block natura:nether_heat_sand: mod not loaded
+[31Dec2022 06:45:12.412] [Worker-Main-3/INFO] [pneumaticcraft/]: ignoring heat properties for block byg:cryptic_magma_block: mod not loaded
+[31Dec2022 06:45:12.468] [Worker-Main-3/INFO] [pneumaticcraft/]: ignoring heat properties for block quark:blaze_lantern: mod not loaded
+[31Dec2022 06:45:12.496] [Worker-Main-3/INFO] [KubeJS Server/]: Found 30832 recipes and 0 failed recipes in 4.292 s
+[31Dec2022 06:46:03.907] [Worker-Main-3/INFO] [KubeJS Server/]: Posted recipe events in 51.41 s
+[31Dec2022 06:46:05.620] [Worker-Main-3/WARN] [com.simibubi.create.Create/]: Your custom create:mixing recipe (createaddition:compat/tconstruct/pig_iron_2) has more item inputs (13) than supported (9).
+[31Dec2022 06:46:05.802] [Worker-Main-3/INFO] [KubeJS Server/]: Modified & removed recipes in 1.893 s
+[31Dec2022 06:46:05.930] [Worker-Main-3/WARN] [com.simibubi.create.Create/]: Your custom create:cutting recipe (kubejs:cutting/forbidden_arcanus/fungyss_log) has more item inputs (2) than supported (1).
+[31Dec2022 06:46:05.932] [Worker-Main-3/WARN] [com.simibubi.create.Create/]: Your custom create:cutting recipe (kubejs:cutting/forbidden_arcanus/edelwood_log) has more item inputs (2) than supported (1).
+[31Dec2022 06:46:05.941] [Worker-Main-3/WARN] [com.simibubi.create.Create/]: Your custom create:cutting recipe (kubejs:cutting/allthemodium/ancient_log) has more item inputs (3) than supported (1).
+[31Dec2022 06:46:05.943] [Worker-Main-3/WARN] [com.simibubi.create.Create/]: Your custom create:cutting recipe (kubejs:cutting/allthemodium/soul_log) has more item inputs (4) than supported (1).
+[31Dec2022 06:46:05.945] [Worker-Main-3/INFO] [KubeJS Server/]: Added recipes in 142.1 ms
+[31Dec2022 06:46:06.017] [Worker-Main-3/INFO] [KubeJS Server/]: Added 2088 recipes, removed 1367 recipes, modified 1 recipes, with 0 failed recipes and 0 fall-backed recipes
+[31Dec2022 06:46:06.033] [Worker-Main-3/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Datapack tried to redefine minecraft:empty loot table, ignoring
+[31Dec2022 06:46:22.235] [Worker-Main-3/INFO] [placebo/]: Registered 24 additional loot tables.
+[31Dec2022 06:46:22.493] [Worker-Main-3/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement sophisticatedstorage:recipes/sophisticatedstorage/dark_oak_chest_from_quark_dark_oak_chest: Unknown item id 'quark:dark_oak_chest'
+[31Dec2022 06:46:22.540] [Worker-Main-3/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement sophisticatedstorage:recipes/sophisticatedstorage/warped_chest_from_quark_warped_chest: Unknown item id 'quark:warped_chest'
+[31Dec2022 06:46:22.815] [Worker-Main-3/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement twilightforest:alt/compat/tconstruct: Disallowed data tag found
+[31Dec2022 06:46:23.046] [Worker-Main-3/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement sophisticatedstorage:recipes/sophisticatedstorage/jungle_chest_from_quark_jungle_chest: Unknown item id 'quark:jungle_chest'
+[31Dec2022 06:46:23.056] [Worker-Main-3/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement sophisticatedstorage:recipes/sophisticatedstorage/oak_chest_from_quark_oak_chest: Unknown item id 'quark:oak_chest'
+[31Dec2022 06:46:23.172] [Worker-Main-3/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement sophisticatedstorage:recipes/sophisticatedstorage/crimson_chest_from_quark_crimson_chest: Unknown item id 'quark:crimson_chest'
+[31Dec2022 06:46:23.173] [Worker-Main-3/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement sophisticatedstorage:recipes/sophisticatedstorage/acacia_chest_from_quark_acacia_chest: Unknown item id 'quark:acacia_chest'
+[31Dec2022 06:46:23.297] [Worker-Main-3/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement sophisticatedstorage:recipes/sophisticatedstorage/birch_chest_from_quark_birch_chest: Unknown item id 'quark:birch_chest'
+[31Dec2022 06:46:23.348] [Worker-Main-3/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement sophisticatedstorage:recipes/sophisticatedstorage/spruce_chest_from_quark_spruce_chest: Unknown item id 'quark:spruce_chest'
+[31Dec2022 06:46:23.521] [Worker-Main-3/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement create:red_signal: Task Advancement{parentId=create:track_signal, display=net.minecraft.advancements.DisplayInfo@486090b9, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@58dc906a}, criteria={0=net.minecraft.advancements.Criterion@32883a68}, requirements=[[0]]}
+[31Dec2022 06:46:23.522] [Worker-Main-3/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement create:train_portal: Task Advancement{parentId=create:train_whistle, display=net.minecraft.advancements.DisplayInfo@c9eee04, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@58dc906a}, criteria={0=net.minecraft.advancements.Criterion@7fb6ce85}, requirements=[[0]]}
+[31Dec2022 06:46:23.523] [Worker-Main-3/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement create:brass: Task Advancement{parentId=create:blaze_burner, display=net.minecraft.advancements.DisplayInfo@3f9bc4c3, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@58dc906a}, criteria={0=net.minecraft.advancements.Criterion@7690e753}, requirements=[[0]]}
+[31Dec2022 06:46:23.523] [Worker-Main-3/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement create:train_crash: Task Advancement{parentId=create:track_signal, display=net.minecraft.advancements.DisplayInfo@11b42c95, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@58dc906a}, criteria={0=net.minecraft.advancements.Criterion@606ffb8f}, requirements=[[0]]}
+[31Dec2022 06:46:23.524] [Worker-Main-3/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement create:long_travel: Task Advancement{parentId=create:long_train, display=net.minecraft.advancements.DisplayInfo@2959d447, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@58dc906a}, criteria={0=net.minecraft.advancements.Criterion@36f5f160}, requirements=[[0]]}
+[31Dec2022 06:46:23.524] [Worker-Main-3/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement create:clockwork_bearing: Task Advancement{parentId=create:haunted_bell, display=net.minecraft.advancements.DisplayInfo@5779ee3a, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@58dc906a}, criteria={0=net.minecraft.advancements.Criterion@4e1e6b44}, requirements=[[0]]}
+[31Dec2022 06:46:23.525] [Worker-Main-3/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement create:mechanical_arm: Task Advancement{parentId=create:speed_controller, display=net.minecraft.advancements.DisplayInfo@3abbfb4e, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@58dc906a}, criteria={0=net.minecraft.advancements.Criterion@742e316}, requirements=[[0]]}
+[31Dec2022 06:46:23.525] [Worker-Main-3/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement create:sturdy_sheet: Task Advancement{parentId=create:crushing_wheel, display=net.minecraft.advancements.DisplayInfo@49263c76, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@58dc906a}, criteria={0=net.minecraft.advancements.Criterion@596c3c17}, requirements=[[0]]}
+[31Dec2022 06:46:23.525] [Worker-Main-3/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement create:track_0: Task Advancement{parentId=create:sturdy_sheet, display=net.minecraft.advancements.DisplayInfo@2389b339, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@58dc906a}, criteria={0=net.minecraft.advancements.Criterion@1b3dafdb}, requirements=[[0]]}
+[31Dec2022 06:46:23.526] [Worker-Main-3/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement create:fist_bump: Task Advancement{parentId=create:mechanical_crafter, display=net.minecraft.advancements.DisplayInfo@4115a680, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@58dc906a}, criteria={0=net.minecraft.advancements.Criterion@37209a0e}, requirements=[[0]]}
+[31Dec2022 06:46:23.526] [Worker-Main-3/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement create:track_signal: Task Advancement{parentId=create:conductor, display=net.minecraft.advancements.DisplayInfo@8ab32cc, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@58dc906a}, criteria={0=net.minecraft.advancements.Criterion@3b68393d}, requirements=[[0]]}
+[31Dec2022 06:46:23.527] [Worker-Main-3/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement create:extendo_grip: Task Advancement{parentId=create:potato_cannon, display=net.minecraft.advancements.DisplayInfo@43b30d01, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@58dc906a}, criteria={0=net.minecraft.advancements.Criterion@39e8759b}, requirements=[[0]]}
+[31Dec2022 06:46:23.527] [Worker-Main-3/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement create:self_deploying: Task Advancement{parentId=create:potato_cannon_collide, display=net.minecraft.advancements.DisplayInfo@52404deb, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@58dc906a}, criteria={0=net.minecraft.advancements.Criterion@28febe95}, requirements=[[0]]}
+[31Dec2022 06:46:23.527] [Worker-Main-3/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement create:musical_arm: Task Advancement{parentId=create:mechanical_crafter, display=net.minecraft.advancements.DisplayInfo@1170cd00, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@58dc906a}, criteria={0=net.minecraft.advancements.Criterion@4ca7d3ad}, requirements=[[0]]}
+[31Dec2022 06:46:23.528] [Worker-Main-3/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement create:display_link: Task Advancement{parentId=create:clockwork_bearing, display=net.minecraft.advancements.DisplayInfo@d0aa187, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@58dc906a}, criteria={0=net.minecraft.advancements.Criterion@7fc23130}, requirements=[[0]]}
+[31Dec2022 06:46:23.528] [Worker-Main-3/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement create:train_crash_backwards: Task Advancement{parentId=create:track_signal, display=net.minecraft.advancements.DisplayInfo@6200044c, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@58dc906a}, criteria={0=net.minecraft.advancements.Criterion@c25f28d}, requirements=[[0]]}
+[31Dec2022 06:46:23.529] [Worker-Main-3/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement create:deployer: Task Advancement{parentId=create:rose_quartz, display=net.minecraft.advancements.DisplayInfo@3b625d8b, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@58dc906a}, criteria={0=net.minecraft.advancements.Criterion@18f071f0}, requirements=[[0]]}
+[31Dec2022 06:46:23.529] [Worker-Main-3/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement create:arm_blaze_burner: Task Advancement{parentId=create:linked_controller, display=net.minecraft.advancements.DisplayInfo@7cab01aa, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@58dc906a}, criteria={0=net.minecraft.advancements.Criterion@674f903e}, requirements=[[0]]}
+[31Dec2022 06:46:23.530] [Worker-Main-3/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement create:potato_cannon: Task Advancement{parentId=create:display_link, display=net.minecraft.advancements.DisplayInfo@767e7e3d, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@58dc906a}, criteria={0=net.minecraft.advancements.Criterion@6dabceac}, requirements=[[0]]}
+[31Dec2022 06:46:23.530] [Worker-Main-3/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement create:train: Task Advancement{parentId=create:train_casing_00, display=net.minecraft.advancements.DisplayInfo@100203b9, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@58dc906a}, criteria={0=net.minecraft.advancements.Criterion@236f61bb}, requirements=[[0]]}
+[31Dec2022 06:46:23.530] [Worker-Main-3/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement create:haunted_bell: Task Advancement{parentId=create:brass, display=net.minecraft.advancements.DisplayInfo@205ce3c9, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@58dc906a}, criteria={0=net.minecraft.advancements.Criterion@78662cc0}, requirements=[[0]]}
+[31Dec2022 06:46:23.531] [Worker-Main-3/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement create:crushing_wheel: Task Advancement{parentId=create:mechanical_crafter, display=net.minecraft.advancements.DisplayInfo@2c705e09, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@58dc906a}, criteria={0=net.minecraft.advancements.Criterion@65b9676b}, requirements=[[0]]}
+[31Dec2022 06:46:23.531] [Worker-Main-3/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement create:train_roadkill: Task Advancement{parentId=create:track_signal, display=net.minecraft.advancements.DisplayInfo@490cd3fa, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@58dc906a}, criteria={0=net.minecraft.advancements.Criterion@6720678f}, requirements=[[0]]}
+[31Dec2022 06:46:23.532] [Worker-Main-3/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement create:brass_casing: Task Advancement{parentId=create:brass, display=net.minecraft.advancements.DisplayInfo@13b9c0c5, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@58dc906a}, criteria={0=net.minecraft.advancements.Criterion@7741d122}, requirements=[[0]]}
+[31Dec2022 06:46:23.532] [Worker-Main-3/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement create:rose_quartz: Task Advancement{parentId=create:brass_casing, display=net.minecraft.advancements.DisplayInfo@2627b8fb, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@58dc906a}, criteria={0=net.minecraft.advancements.Criterion@5f96a5dc}, requirements=[[0]]}
+[31Dec2022 06:46:23.532] [Worker-Main-3/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement create:display_board_0: Task Advancement{parentId=create:track_signal, display=net.minecraft.advancements.DisplayInfo@26343db3, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@58dc906a}, criteria={0=net.minecraft.advancements.Criterion@4ce6d4ec}, requirements=[[0]]}
+[31Dec2022 06:46:23.533] [Worker-Main-3/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement create:extendo_grip_dual: Task Advancement{parentId=create:mechanical_crafter, display=net.minecraft.advancements.DisplayInfo@3936b01d, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@58dc906a}, criteria={0=net.minecraft.advancements.Criterion@438d5263}, requirements=[[0]]}
+[31Dec2022 06:46:23.534] [Worker-Main-3/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement create:crafter_lazy_000: Task Advancement{parentId=create:mechanical_crafter, display=net.minecraft.advancements.DisplayInfo@56c25925, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@58dc906a}, criteria={0=net.minecraft.advancements.Criterion@7ff517d4}, requirements=[[0]]}
+[31Dec2022 06:46:23.534] [Worker-Main-3/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement create:mechanical_crafter: Task Advancement{parentId=create:mechanical_arm, display=net.minecraft.advancements.DisplayInfo@31b17174, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@58dc906a}, criteria={0=net.minecraft.advancements.Criterion@66ad9b21}, requirements=[[0]]}
+[31Dec2022 06:46:23.535] [Worker-Main-3/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement create:speed_controller: Task Advancement{parentId=create:precision_mechanism, display=net.minecraft.advancements.DisplayInfo@75871f3f, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@58dc906a}, criteria={0=net.minecraft.advancements.Criterion@7f79e63d}, requirements=[[0]]}
+[31Dec2022 06:46:23.535] [Worker-Main-3/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement create:train_whistle: Task Advancement{parentId=create:track_0, display=net.minecraft.advancements.DisplayInfo@e146a57, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@58dc906a}, criteria={0=net.minecraft.advancements.Criterion@3eec3da6}, requirements=[[0]]}
+[31Dec2022 06:46:23.535] [Worker-Main-3/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement create:crusher_maxed_0000: Task Advancement{parentId=create:brass, display=net.minecraft.advancements.DisplayInfo@1b4c799, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@58dc906a}, criteria={0=net.minecraft.advancements.Criterion@5eeacb04}, requirements=[[0]]}
+[31Dec2022 06:46:23.536] [Worker-Main-3/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement create:conductor: Task Advancement{parentId=create:train, display=net.minecraft.advancements.DisplayInfo@27119e12, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@58dc906a}, criteria={0=net.minecraft.advancements.Criterion@2fabd31f}, requirements=[[0]]}
+[31Dec2022 06:46:23.536] [Worker-Main-3/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement create:potato_cannon_collide: Task Advancement{parentId=create:arm_many_targets, display=net.minecraft.advancements.DisplayInfo@3a1ba418, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@58dc906a}, criteria={0=net.minecraft.advancements.Criterion@4bd9ab6f}, requirements=[[0]]}
+[31Dec2022 06:46:23.537] [Worker-Main-3/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement create:precision_mechanism: Task Advancement{parentId=create:deployer, display=net.minecraft.advancements.DisplayInfo@4b9d3e8f, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@58dc906a}, criteria={0=net.minecraft.advancements.Criterion@4d997640}, requirements=[[0]]}
+[31Dec2022 06:46:23.538] [Worker-Main-3/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement create:train_casing_00: Task Advancement{parentId=create:sturdy_sheet, display=net.minecraft.advancements.DisplayInfo@69eca372, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@58dc906a}, criteria={0=net.minecraft.advancements.Criterion@6f41f379}, requirements=[[0]]}
+[31Dec2022 06:46:23.538] [Worker-Main-3/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement create:track_crafting_factory: Task Advancement{parentId=create:sturdy_sheet, display=net.minecraft.advancements.DisplayInfo@6e6c74ef, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@58dc906a}, criteria={0=net.minecraft.advancements.Criterion@e569860}, requirements=[[0]]}
+[31Dec2022 06:46:23.539] [Worker-Main-3/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement create:long_train: Task Advancement{parentId=create:long_bend, display=net.minecraft.advancements.DisplayInfo@75e91ad, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@58dc906a}, criteria={0=net.minecraft.advancements.Criterion@3df19cbe}, requirements=[[0]]}
+[31Dec2022 06:46:23.539] [Worker-Main-3/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement create:long_bend: Task Advancement{parentId=create:track_crafting_factory, display=net.minecraft.advancements.DisplayInfo@6868b149, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@58dc906a}, criteria={0=net.minecraft.advancements.Criterion@59cdc496}, requirements=[[0]]}
+[31Dec2022 06:46:23.540] [Worker-Main-3/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement create:linked_controller: Task Advancement{parentId=create:extendo_grip, display=net.minecraft.advancements.DisplayInfo@78c8bc16, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@58dc906a}, criteria={0=net.minecraft.advancements.Criterion@4f962eed}, requirements=[[0]]}
+[31Dec2022 06:46:23.540] [Worker-Main-3/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement create:arm_many_targets: Task Advancement{parentId=create:crusher_maxed_0000, display=net.minecraft.advancements.DisplayInfo@cb95801, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@58dc906a}, criteria={0=net.minecraft.advancements.Criterion@7226ee3d}, requirements=[[0]]}
+[31Dec2022 06:46:23.578] [Worker-Main-3/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1170 advancements
+[31Dec2022 06:46:23.578] [Worker-Main-3/INFO] [net.permutated.norecipeadvancements.NoRecipeAdvancements/]: Skipped loading 11294 recipe advancements.
+[31Dec2022 06:46:23.626] [Worker-Main-3/INFO] [placebo/]: Registered 31 additional recipes.
+[31Dec2022 06:46:23.634] [Worker-Main-3/INFO] [Iron Jetpacks/]: Loaded 6 jetpack type(s) in 7 ms
+[31Dec2022 06:46:25.086] [Worker-Main-3/INFO] [slimeknights.mantle.fluid.transfer.FluidContainerTransferManager/]: Loaded 17 dynamic modifiers in 1.78606 ms
+[31Dec2022 06:46:27.350] [Worker-Main-3/INFO] [dev.wuffs.squatgrow.SquatGrow/]: Config loading
+[31Dec2022 06:46:27.351] [Worker-Main-3/INFO] [dev.wuffs.squatgrow.SquatGrow/]: Tags: []
+[31Dec2022 06:46:27.352] [Worker-Main-3/INFO] [dev.wuffs.squatgrow.SquatGrow/]: Wildcards: []
+[31Dec2022 06:46:27.406] [Worker-Main-3/INFO] [dan200.computercraft.shared.UpgradeManager/]: Loaded 21 turtle upgrades
+[31Dec2022 06:46:27.408] [Worker-Main-3/INFO] [dan200.computercraft.shared.UpgradeManager/]: Loaded 8 pocket computer upgrades
+[31Dec2022 06:46:27.442] [Worker-Main-3/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 57 dynamic modifiers and 7 modifier redirects in 25.843967 ms
+[31Dec2022 06:46:27.573] [Worker-Main-3/INFO] [slimeknights.tconstruct.library.modifiers.spilling.SpillingFluidManager/]: Loaded 26 spilling fluids in 126.37445 ms
+[31Dec2022 06:46:27.777] [Worker-Main-3/INFO] [Apotheosis : Enchantment/]: Registered 24 enchanting_stats.
+[31Dec2022 06:46:27.878] [Worker-Main-3/INFO] [Apotheosis : Adventure/]: Registered 65 affixes.
+[31Dec2022 06:46:27.897] [Worker-Main-3/INFO] [Apotheosis : Adventure/]: Registered 26 gems.
+[31Dec2022 06:46:27.922] [Worker-Main-3/INFO] [Apotheosis : Adventure/]: Registered 108 affix_loot_entries.
+[31Dec2022 06:46:27.959] [Worker-Main-3/INFO] [Apotheosis : Adventure/]: Registered 28 boss_gear.
+[31Dec2022 06:46:28.031] [Worker-Main-3/INFO] [Apotheosis : Adventure/]: Registered 27 bosses.
+[31Dec2022 06:46:28.099] [Worker-Main-3/INFO] [Apotheosis : Adventure/]: Registered 8 random_spawners.
+[31Dec2022 06:46:28.123] [Worker-Main-3/INFO] [Apotheosis : Village/]: Registered 45 wanderer_trades.
+[31Dec2022 06:46:28.151] [Worker-Main-3/INFO] [hostilenetworks/]: Registered 34 data_models.
+[31Dec2022 06:46:28.170] [Worker-Main-3/INFO] [Cucumber Library/]: Loaded cucumber-tags.json in 0 ms
+[31Dec2022 06:46:28.190] [Worker-Main-3/INFO] [slimeknights.tconstruct.library.materials.definition.MaterialManager/]: Loaded 77 materials in 19.396051 ms
+[31Dec2022 06:46:30.919] [Worker-Main-3/INFO] [slimeknights.tconstruct.library.materials.stats.MaterialStatsManager/]: 165 stats loaded for 77 materials in 2728.5737 ms
+[31Dec2022 06:46:33.004] [Worker-Main-3/INFO] [slimeknights.tconstruct.library.materials.traits.MaterialTraitsManager/]: 69 traits loaded for 77 materials in 2085.4224 ms
+[31Dec2022 06:46:33.036] [Worker-Main-3/INFO] [slimeknights.tconstruct.library.tools.definition.ToolDefinitionLoader/]: Loaded 26 tool definitions in 23.449888 ms
+[31Dec2022 06:46:33.050] [Worker-Main-3/INFO] [slimeknights.tconstruct.library.tools.layout.StationSlotLayoutLoader/]: Loaded 16 station slot layouts in 12.437618 ms
+[31Dec2022 06:47:01.873] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.18.2
+[31Dec2022 06:47:01.874] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[31Dec2022 06:47:01.874] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[31Dec2022 06:47:01.874] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[31Dec2022 06:47:02.218] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[31Dec2022 06:47:02.310] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[31Dec2022 06:47:02.908] [Server thread/INFO] [FluxNetworks/Energy]: Energy blacklist loaded: 1 block entries, 0 item entries
+[31Dec2022 06:47:02.911] [Thread-0/INFO] [FluxNetworks/Energy]: Energy blacklist loaded: 1 block entries, 0 item entries
+[31Dec2022 06:47:02.913] [Thread-0/INFO] [FluxNetworks/Energy]: Energy blacklist loaded: 1 block entries, 0 item entries
+[31Dec2022 06:47:02.958] [Thread-0/INFO] [wile.engineersdecor.ModEngineersDecor/]: Config file changed engineersdecor-server.toml
+[31Dec2022 06:47:02.963] [Thread-0/INFO] [wile.engineersdecor.ModEngineersDecor/]: Config file changed engineersdecor-server.toml
+[31Dec2022 06:47:03.049] [Server thread/INFO] [FTB Teams/]: Loaded FTB Teams - 3 known players
+[31Dec2022 06:47:03.562] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#getMaxLevel() in net/minecraft/world/entity/npc/VillagerTrades$EnchantBookForEmeralds
+[31Dec2022 06:47:03.563] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#isTreasureOnly() in net/minecraft/world/entity/npc/VillagerTrades$EnchantBookForEmeralds
+[31Dec2022 06:47:03.563] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#isTradeable() in net/minecraft/world/entity/npc/VillagerTrades$EnchantBookForEmeralds
+[31Dec2022 06:47:03.642] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[31Dec2022 06:47:05.119] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[31Dec2022 06:47:30.145] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.TamableAnimal from interface com.hollingsworth.arsnouveau.common.entity.IFollowingSummon
+[31Dec2022 06:47:30.441] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class reliquary.entities.potion.ThrownPotionEntity from class reliquary.entities.potion.ThrownXRPotionEntity
+[31Dec2022 06:47:33.877] [Server thread/INFO] [FTB Chunks/]: Force-loaded 1 chunks in minecraft:the_end
+[31Dec2022 06:47:36.580] [Server thread/INFO] [FTB Chunks/]: Force-loaded 1 chunks in twilightforest:twilight_forest
+[31Dec2022 06:47:39.181] [Server thread/INFO] [FTB Chunks/]: Force-loaded 1 chunks in allthemodium:the_other
+[31Dec2022 06:47:39.590] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[31Dec2022 06:47:40.366] [Server thread/INFO] [FTB Chunks/]: Force-loaded 1 chunks in compactmachines:compact_world
+[31Dec2022 06:47:40.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[31Dec2022 06:47:41.129] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 17%
+[31Dec2022 06:47:41.131] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 17%
+[31Dec2022 06:47:41.415] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 17%
+[31Dec2022 06:47:41.914] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 17%
+[31Dec2022 06:47:43.175] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
+[31Dec2022 06:47:43.186] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
+[31Dec2022 06:47:43.414] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 20%
+[31Dec2022 06:47:43.916] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 24%
+[31Dec2022 06:47:44.414] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 38%
+[31Dec2022 06:47:44.914] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 63%
+[31Dec2022 06:47:45.414] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
+[31Dec2022 06:47:46.077] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 100%
+[31Dec2022 06:47:46.348] [Server thread/INFO] [FTB Chunks/]: cleaning up 1 non-ticking and 0 ticking tickets for 477b4ab1-9751-4bcf-9fa6-594a7288d86b
+[31Dec2022 06:47:46.351] [Server thread/INFO] [FTB Chunks/]: cleaning up 1 non-ticking and 0 ticking tickets for 477b4ab1-9751-4bcf-9fa6-594a7288d86b
+[31Dec2022 06:47:46.353] [Server thread/INFO] [FTB Chunks/]: cleaning up 1 non-ticking and 0 ticking tickets for 477b4ab1-9751-4bcf-9fa6-594a7288d86b
+[31Dec2022 06:47:46.354] [Server thread/INFO] [FTB Chunks/]: cleaning up 1 non-ticking and 0 ticking tickets for 477b4ab1-9751-4bcf-9fa6-594a7288d86b
+[31Dec2022 06:47:46.355] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 5942 ms
+[31Dec2022 06:47:46.357] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (43.831s)! For help, type "help"
+[31Dec2022 06:47:46.720] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[31Dec2022 06:47:46.864] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[31Dec2022 06:47:46.881] [Server thread/INFO] [corail_woodcutter/]: 663 woodcutting recipes loaded
+[31Dec2022 06:47:47.390] [Server thread/INFO] [Observable/]: Registered thread Server thread
+[31Dec2022 06:47:47.392] [Server thread/INFO] [FTB Quests/]: Loading quests from /home/clarinetcombo/atm7sky/config/ftbquests/quests
+[31Dec2022 06:47:47.715] [Server thread/INFO] [FTB Quests/]: Loaded 8 chapter groups, 24 chapters, 1335 quests, 10 reward tables
+[31Dec2022 06:47:47.811] [Server thread/INFO] [net.roguelogix.biggerreactors.BiggerReactors/]: Loading reactor moderators
+[31Dec2022 06:47:49.397] [Server thread/INFO] [net.roguelogix.biggerreactors.BiggerReactors/]: Loaded 52 moderator data entries
+[31Dec2022 06:47:49.405] [Server thread/INFO] [net.roguelogix.biggerreactors.BiggerReactors/]: Loaded 78 moderator entries
+[31Dec2022 06:47:49.407] [Server thread/INFO] [net.roguelogix.biggerreactors.BiggerReactors/]: Loading turbine coils
+[31Dec2022 06:47:49.770] [Netty Epoll Server IO #0/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[31Dec2022 06:47:50.464] [Server thread/INFO] [net.roguelogix.biggerreactors.BiggerReactors/]: Loaded 15 coil data entries
+[31Dec2022 06:47:50.468] [Server thread/INFO] [net.roguelogix.biggerreactors.BiggerReactors/]: Loaded 28 coil entries
+[31Dec2022 06:47:50.470] [Server thread/INFO] [net.roguelogix.biggerreactors.BiggerReactors/]: Loading fluid transitions
+[31Dec2022 06:47:51.907] [Server thread/INFO] [net.roguelogix.biggerreactors.BiggerReactors/]: Loaded 6 transitions data entries
+[31Dec2022 06:47:51.910] [Server thread/INFO] [net.roguelogix.biggerreactors.BiggerReactors/]: Loaded 6 liquid transition entries
+[31Dec2022 06:47:51.911] [Server thread/INFO] [net.roguelogix.biggerreactors.BiggerReactors/]: Loaded 8 gas transition entries
+[31Dec2022 06:47:52.032] [Server thread/INFO] [integrateddynamics/]: Loading infobook /data/integrateddynamics/info/on_the_dynamics_of_integration.xml
+[31Dec2022 06:47:52.268] [Server thread/INFO] [cyclopscore/]: Loading infobook /data/cyclopscore/info/test.xml
+[31Dec2022 06:47:52.397] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[31Dec2022 06:47:52.552] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[31Dec2022 06:47:59.760] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player AUUUUUUUGGGGGHHH is 1857b96e-6284-4998-a593-dc22ca3bfd8f
+[31Dec2022 06:48:05.987] [User Authenticator #2/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Golf0ned is 7dafb90d-7e1b-4982-b17b-f53f92df3dfc
+[31Dec2022 06:48:10.321] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 13918ms or 278 ticks behind
+[31Dec2022 06:48:54.541] [User Authenticator #3/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player AUUUUUUUGGGGGHHH is 1857b96e-6284-4998-a593-dc22ca3bfd8f
+[31Dec2022 06:48:56.868] [User Authenticator #4/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Golf0ned is 7dafb90d-7e1b-4982-b17b-f53f92df3dfc
+[31Dec2022 06:49:01.740] [User Authenticator #5/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player clarinetcombo is bf9e7ebe-6543-4af3-80ba-d549e7450c13
+[31Dec2022 06:49:45.361] [User Authenticator #6/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player clarinetcombo is bf9e7ebe-6543-4af3-80ba-d549e7450c13

@@ -1,0 +1,8 @@
+
+#Inventory sorter blacklists
+[blacklists]
+	#Slot type blacklist
+	slotBlacklist = ["net.p3pp3rf1y.sophisticatedcore.common.gui.StorageInventorySlot", "appeng.client.gui.me.common.ClientReadOnlySlot", "appeng.client.gui.me.common.RepoSlot", "appeng.client.gui.me.common.ClientDisplaySlot", "appeng.menu.slot.FakeSlot", "appeng.menu.slot.OptionalFakeSlot"]
+	#Container blacklist
+	containerBlacklist = []
+

@@ -1,0 +1,22 @@
+{
+	id: "1857b96e-6284-4998-a593-dc22ca3bfd8f"
+	type: "player"
+	player_name: "AUUUUUUUGGGGGHHH"
+	ranks: { }
+	properties: {
+		"ftbteams:display_name": "AUUUUUUUGGGGGHHH"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FF9859"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+		"ftbchunks:allow_explosions": 0b
+		"ftbchunks:allow_fake_players": 1b
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbchunks:entity_interact_mode": "allies"
+		"ftbchunks:claim_visibility": "public"
+		"ftbchunks:location_mode": "allies"
+	}
+	message_history: [ ]
+	extra: { }
+}

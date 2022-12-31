@@ -1,0 +1,19 @@
+JVM info: Private Build - 17.0.5 - 17.0.5+8-Ubuntu-2ubuntu118.04
+java.net.preferIPv4Stack=true
+Found java version 17.0.5
+Exception in thread "main" 
+java.awt.HeadlessException: 
+No X11 DISPLAY variable was set,
+but this program performed an operation which requires it.
+	at java.desktop/java.awt.GraphicsEnvironment.checkHeadless(GraphicsEnvironment.java:166)
+	at java.desktop/java.awt.Window.<init>(Window.java:553)
+	at java.desktop/java.awt.Frame.<init>(Frame.java:428)
+	at java.desktop/java.awt.Frame.<init>(Frame.java:393)
+	at java.desktop/javax.swing.SwingUtilities$SharedOwnerFrame.<init>(SwingUtilities.java:1919)
+	at java.desktop/javax.swing.SwingUtilities.getSharedOwnerFrame(SwingUtilities.java:1995)
+	at java.desktop/javax.swing.JOptionPane.getRootFrame(JOptionPane.java:1695)
+	at java.desktop/javax.swing.JOptionPane.showOptionDialog(JOptionPane.java:874)
+	at java.desktop/javax.swing.JOptionPane.showMessageDialog(JOptionPane.java:676)
+	at java.desktop/javax.swing.JOptionPane.showMessageDialog(JOptionPane.java:647)
+	at net.minecraftforge.installer.SimpleInstaller.launchGui(SimpleInstaller.java:177)
+	at net.minecraftforge.installer.SimpleInstaller.main(SimpleInstaller.java:147)

@@ -20,5 +20,6 @@
   "creative": false,
   "toughness": 0.0,
   "knockbackResistance": 0.0,
-  "curios": true
+  "curios": true,
+  "speedHoverAscend": 0.18
 }

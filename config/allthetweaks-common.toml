@@ -23,3 +23,7 @@
 	#Range: 0 ~ 32768
 	minorrev = 6
 
+[tweaks]
+	#Chickens randomly shed feathers
+	chickensShedFeathers = true
+

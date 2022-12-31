@@ -1,0 +1,55 @@
+[06:40:07] [INFO ] Loaded script server_scripts:constants.js in 0.092 s
+[06:40:07] [INFO ] Loaded script server_scripts:tags.js in 0.075 s
+[06:40:07] [INFO ] Loaded script server_scripts:unify.js in 0.129 s
+[06:40:07] [INFO ] Loaded script server_scripts:mod_specific/ex_nihilo/ex_nihilo.js in 0.032 s
+[06:40:07] [INFO ] Loaded script server_scripts:xpFluids.js in 0.006 s
+[06:40:07] [INFO ] Loaded script server_scripts:stonecutting.js in 0.006 s
+[06:40:07] [INFO ] Loaded script server_scripts:craftingenhancements.js in 0.006 s
+[06:40:07] [INFO ] Loaded script server_scripts:mod_specific/buildinggadgets/buildinggadgets.js in 0.002 s
+[06:40:07] [INFO ] Loaded script server_scripts:mod_specific/misc/tweaks.js in 0.01 s
+[06:40:07] [INFO ] Loaded script server_scripts:mod_specific/misc/music_discs.js in 0.006 s
+[06:40:07] [INFO ] Loaded script server_scripts:mod_specific/ae/ae.js in 0.003 s
+[06:40:07] [INFO ] Loaded script server_scripts:mod_specific/projecte/projectE.js in 0.012 s
+[06:40:07] [INFO ] Loaded script server_scripts:mod_specific/projecte/worldTransmute.js in 0.024 s
+[06:40:07] [INFO ] Loaded script server_scripts:mod_specific/computercraft/computercraft.js in 0.004 s
+[06:40:07] [INFO ] Loaded script server_scripts:mod_specific/thermal/rock_gen.js in 0.007 s
+[06:40:07] [INFO ] Loaded script server_scripts:mod_specific/cobblefordays/cobblegen.js in 0.005 s
+[06:40:07] [INFO ] Loaded script server_scripts:mod_specific/twilightforest/twilight.js in 0.001 s
+[06:40:07] [INFO ] Loaded script server_scripts:mod_specific/functionalstorge/compacting.js in 0.003 s
+[06:40:07] [INFO ] Loaded script server_scripts:mod_specific/mekanism/mekanism.js in 0.007 s
+[06:40:07] [INFO ] Loaded script server_scripts:mod_specific/mekanism/cobalt.js in 0.017 s
+[06:40:07] [INFO ] Loaded script server_scripts:mod_specific/ATM/atm_star_creative.js in 0.009 s
+[06:40:07] [INFO ] Loaded script server_scripts:mod_specific/ATM/atm_star.js in 0.003 s
+[06:40:07] [INFO ] Loaded script server_scripts:mod_specific/ATM/atm_shard.js in 0.0 s
+[06:40:07] [INFO ] Loaded script server_scripts:mod_specific/ATM/custom_recipes.js in 0.069 s
+[06:40:07] [INFO ] Loaded script server_scripts:mod_specific/ATM/allthemodium.js in 0.001 s
+[06:40:07] [INFO ] Loaded script server_scripts:mod_specific/rftools/rftools.js in 0.001 s
+[06:40:07] [INFO ] Loaded script server_scripts:mod_specific/occultism/iesnium.js in 0.0 s
+[06:40:07] [INFO ] Loaded script server_scripts:mod_specific/notenoughwands/removals.js in 0.005 s
+[06:40:07] [INFO ] Loaded script server_scripts:mod_specific/reliquary/removals.js in 0.0 s
+[06:40:07] [INFO ] Loaded script server_scripts:mod_specific/exmachinis/orepiece.js in 0.0 s
+[06:40:07] [INFO ] Loaded script server_scripts:mod_specific/exmachinis/pebble.js in 0.001 s
+[06:40:07] [INFO ] Loaded script server_scripts:mod_specific/exmachinis/raw_ore.js in 0.001 s
+[06:40:07] [INFO ] Loaded script server_scripts:mod_specific/apotheosis/removals.js in 0.0 s
+[06:40:07] [INFO ] Loaded script server_scripts:mod_specific/spirit/transmutation.js in 0.016 s
+[06:40:08] [INFO ] Loaded script server_scripts:mod_specific/ftbic/ftbic.js in 0.013 s
+[06:40:08] [INFO ] Loaded script server_scripts:mod_specific/ex_nihilo/ex_nihilo_pebbles.js in 0.001 s
+[06:40:08] [INFO ] Loaded script server_scripts:mod_specific/mysticalagriculture/ma_crafting.js in 0.001 s
+[06:40:08] [INFO ] Loaded script server_scripts:mod_specific/mysticalagriculture/mysticalagriculture.js in 0.0 s
+[06:40:08] [INFO ] Loaded script server_scripts:mod_specific/mysticalagriculture/ma_crops.js in 0.002 s
+[06:40:08] [INFO ] Loaded script server_scripts:sawmillCompat.js in 0.042 s
+[06:40:08] [INFO ] Loaded 40/40 KubeJS server scripts in 0.73 s
+[06:40:08] [INFO ] Scripts loaded
+[06:40:08] [WARN ] Failed to register handler for recipe type ars_nouveau:glyph_recipe as it doesn't exist!
+[06:40:08] [INFO ] Scanning recipes...
+[06:41:34] [INFO ] [blocks] Found 1226 tags, added 1710 objects, removed 0 objects
+[06:41:34] [INFO ] [blocks] Found 1226 tags, added 1710 objects, removed 0 objects
+[06:41:38] [INFO ] [entity_types] Found 83 tags, added 106 objects, removed 0 objects
+[06:41:52] [INFO ] [items] Found 2961 tags, added 560 objects, removed 3 objects
+[06:41:52] [INFO ] [items] Found 2961 tags, added 560 objects, removed 3 objects
+[06:45:09] [WARN ] Failed to parse recipe 'createaddition:compat/tconstruct/pig_iron[create:mixing]': {"item":"minecraft:bottle","count":1} is not a valid result!
+[06:45:12] [INFO ] Found 30832 recipes and 0 failed recipes in 4.292 s
+[06:46:03] [INFO ] Posted recipe events in 51.41 s
+[06:46:05] [INFO ] Modified & removed recipes in 1.893 s
+[06:46:05] [INFO ] Added recipes in 142.1 ms
+[06:46:06] [INFO ] Added 2088 recipes, removed 1367 recipes, modified 1 recipes, with 0 failed recipes and 0 fall-backed recipes

@@ -1,0 +1,7 @@
+{
+	warps: {
+		home: { dim: "minecraft:overworld", x: 4099, y: 69, z: 2, time: 1671924721392L }
+		spawn: { dim: "minecraft:overworld", x: 5, y: 66, z: 3, time: 1671924730114L }
+		unob: { dim: "allthemodium:the_other", x: 527, y: 14, z: -36, time: 1672134309890L }
+	}
+}

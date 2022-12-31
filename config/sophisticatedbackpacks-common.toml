@@ -223,7 +223,7 @@
 	#Stack Upgrade Settings
 	[common.stackUpgrade]
 		#List of items that are not supposed to stack in storage even when stack upgrade is inserted. Item registry names are expected here.
-		nonStackableItems = ["minecraft:bundle","tombstone:enchanted_bundle"]
+		nonStackableItems = ["minecraft:bundle", "tombstone:enchanted_bundle"]
 
 	#Smelting Upgrade Settings
 	[common.smeltingUpgrade]
@@ -408,4 +408,13 @@
 		slownessLevelsPerAdditionalBackpack = 1.0
 		#Determines if active upgrades will only work in the backpack that's worn by the player. Active upgrades are for example magnet, pickup, cooking, feeding upgrades.
 		onlyWornBackpackTriggersUpgrades = false
+
+	#Advanced Refill Upgrade Settings
+	[common.advancedRefillUpgrade]
+		#Number of Advanced Refill Upgrade's filter slots
+		#Range: 1 ~ 20
+		filterSlots = 12
+		#Number of filter slots displayed in a row
+		#Range: 1 ~ 6
+		slotsInRow = 4
 
